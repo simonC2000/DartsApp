@@ -1,18 +1,12 @@
 .defaultText {
-  font-size: 32;
-  font-family: System-Regular;
-  font-weight: regular;
-  text-length: 32;
-}
-
-#background {
-  width: 100%;
-  height: 100%;
-  fill: #294751;
-}
-
-/*BUTTONS----------------------------------------------------------------*/
-
-.application-fill           { fill: #F8AC3B; }
-.foreground-fill            { fill: #1E363F; }
-.background-fill            { fill: fb-black; }
+    font-size: 32;
+    font-family: System-Regular;
+    font-weight: regular;
+    text-length: 32;
+  }
+  
+  #background {
+    width: 100%;
+    height: 100%;
+    fill: #f1f9fc;
+  }

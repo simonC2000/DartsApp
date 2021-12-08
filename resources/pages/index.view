@@ -1,6 +1,4 @@
 <svg>
   <rect id="background" />
-  <use id="button1" href="#icon-button" class="extra-large-button application-fill plus-button" />
-  <use id="button2" href="#icon-button" class="extra-large-button application-fill plus-button" />
-  <use id="button3" href="#icon-button" class="extra-large-button application-fill plus-button" />
+  <text fill="#F8AC3B" font-family="System-Regular">501</text>
 </svg>

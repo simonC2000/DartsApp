@@ -8,13 +8,13 @@
 #background {
   width: 100%;
   height: 100%;
-  fill: #294751;
+  fill: #f1f9fc;
 }
 
 /*BUTTONS----------------------------------------------------------------*/
 
 .application-fill           { fill: #F8AC3B; }
-.foreground-fill            { fill: #1E363F; }
+.foreground-fill            { fill: #9bc4d3; }
 .background-fill            { fill: fb-black; }
 
 #button1 {

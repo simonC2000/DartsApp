@@ -17,17 +17,17 @@
 .foreground-fill            { fill: #1E363F; }
 .background-fill            { fill: fb-black; }
 
-#button1 {
+#button-1 {
   x: 30;
   y: 30;
 }
 
-#button2 {
+#button-2 {
   x: 180;
   y: 30;
 }
 
-#button3 {
+#button-3 {
   x: 105;
   y: 180;
 }

@@ -17,7 +17,7 @@ export function destroy() {
   console.log('destroy detail page');
   $locationName = null;
   $button = null;
-  removeStateCallback('detail');
+  removeStateCallback('index');
 }
 
 export function init() {

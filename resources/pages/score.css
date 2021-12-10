@@ -1,0 +1,9 @@
+#backgroundScore {
+    width: 100%;
+    height: 100%;
+    fill: #294751;
+  }
+
+  #buttonTumbler #text {
+    text-buffer: "SCORE";
+  }

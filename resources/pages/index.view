@@ -1,5 +1,5 @@
 <svg>
   <rect id="backgroundIndex" />
-  <use id="buttonPlay" href="#text-button" class="text-button bottom left secondary application-fill" />
+  <use id="buttonPlay" href="#text-button" class="text-button bottom left application-fill" />
   <use id="buttonInfo" href="#text-button" class="text-button bottom right application-fill" />
 </svg>

@@ -10,3 +10,15 @@
     height: 100%;
     fill: #294751;
   }
+
+.application-fill           { fill: #F8AC3B; }
+.foreground-fill            { fill: #F8AC3B; }
+.background-fill            { fill: #F8AC3B; }
+
+  #buttonPlay #text {
+    text-buffer: "PLAY";
+  }
+  
+  #buttonInfo #text {
+    text-buffer: "INFO";
+  }

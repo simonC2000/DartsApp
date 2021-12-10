@@ -1,6 +1,10 @@
 <svg>
   <defs>
     <link rel="stylesheet" href="pages/styles.css" />
-    <link rel="import" href="/mnt/sysassets/system_widget.defs" />
+    <link rel="stylesheet" href="pages/info.css" />
+    <link rel="stylesheet" href="pages/play.css" />
+    <link rel="stylesheet" href="pages/tumbler.css" />
+    <link rel="stylesheet" href="pages/win.css" />
+    <link rel="import" href="/mnt/sysassets/widgets/text_button.defs" />
   </defs>
 </svg>

@@ -1,4 +1,5 @@
 <svg>
   <rect id="background" />
-  <text fill="#F8AC3B" font-family="System-Regular">501</text>
+  <use id="buttonPlay" href="#text-button" class="text-button bottom left secondary application-fill" />
+  <use id="buttonInfo" href="#text-button" class="text-button bottom right application-fill" />
 </svg>

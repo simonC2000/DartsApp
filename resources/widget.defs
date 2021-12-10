@@ -2,9 +2,14 @@
   <defs>
     <link rel="stylesheet" href="pages/styles.css" />
     <link rel="stylesheet" href="pages/info.css" />
-    <link rel="stylesheet" href="pages/play.css" />
+    <link rel="stylesheet" href="pages/score.css" />
     <link rel="stylesheet" href="pages/tumbler.css" />
     <link rel="stylesheet" href="pages/win.css" />
     <link rel="import" href="/mnt/sysassets/widgets/text_button.defs" />
+
+    <link rel="import" href="/mnt/sysassets/system_widget.defs" />
+    <!-- Additional Imports -->
+    <link rel="import" href="/mnt/sysassets/widgets/baseview_widget.defs" />
+    <link rel="import" href="/mnt/sysassets/widgets/scrollview_widget.defs" />
   </defs>
 </svg>

@@ -5,15 +5,15 @@
     text-length: 32;
   }
   
-  #background {
+  #backgroundIndex {
     width: 100%;
     height: 100%;
     fill: #294751;
   }
 
 .application-fill           { fill: #F8AC3B; }
-.foreground-fill            { fill: #F8AC3B; }
-.background-fill            { fill: #F8AC3B; }
+.foreground-fill            { fill: fb-white; }
+.background-fill            { fill: fb-black; }
 
   #buttonPlay #text {
     text-buffer: "PLAY";

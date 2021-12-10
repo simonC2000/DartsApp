@@ -1,8 +1,8 @@
 import document from 'document';
 import { switchPage } from '../navigation';
 
-let $buttonDetail = null;
-let $buttonReplace = null;
+let $buttonPlay = null;
+let $buttonInfo = null;
 
 function doSomething() {
   console.log('hallo index');

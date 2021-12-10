@@ -1,30 +1,36 @@
 import document from 'document';
-import { switchPage } from '../navigation';
+import { getLocationName } from '../commands';
+import { getStateItem, setStateCallback, removeStateCallback } from '../state';
 
-let $buttonDetail = null;
-let $buttonReplace = null;
+let $button = null;
+let $locationName = null;
 
 function doSomething() {
-  console.log('hallo index');
+  console.log('hallo detail');
+}
+
+function draw() {
+  $locationName.text = getStateItem('location');
 }
 
 export function destroy() {
-  console.log('destroy index page');
-  $buttonPlay = null;
-  $buttonInfo = null;
+  console.log('destroy detail page');
+  $locationName = null;
+  $button = null;
+  removeStateCallback('detail');
 }
 
 export function init() {
-  console.log('init index page');
-  $buttonPlay = document.getElementById('buttonPlay');
-  $buttonInfo = document.getElementById('buttonInfo');
-
-  $buttonPlay.onclick = () => {
-    switchPage('score', true);
-  };
-  $buttonInfo.onclick = () => {
-    switchPage('info');
+  console.log('init detail page');
+  $locationName = document.getElementById('location');
+  $button = document.getElementById('buttonBackInfo');
+  $button.onclick = () => {
+    destroy();
+    document.history.back();
   };
 
   doSomething();
+  getLocationName();
+  setStateCallback('detail', draw);
+  // draw();
 }

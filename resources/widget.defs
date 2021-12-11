@@ -11,5 +11,7 @@
     <!-- Additional Imports -->
     <link rel="import" href="/mnt/sysassets/widgets/baseview_widget.defs" />
     <link rel="import" href="/mnt/sysassets/widgets/scrollview_widget.defs" />
+    <link rel="import" href="/mnt/sysassets/widgets/baseview_widget.defs" />
+    <link rel="import" href="/mnt/sysassets/widgets/tumblerview_widget.defs" />
   </defs>
 </svg>

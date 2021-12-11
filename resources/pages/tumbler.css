@@ -1,7 +1,11 @@
-/*Dit mag weg*/
 #backgroundTumbler {
-    width: 100%;
-    height: 100%;
-    fill: #294751;
-  }
-/*Dit mag weg*/
+  width: 100%;
+  height: 100%;
+  fill: #294751;
+}
+
+#tumbler-score               { x: 120;   y: 120; width: 120; height: 100%; }
+#tumbler-score #value text   { x: 80%; text-anchor: end;}
+.tumbler-colon              { x: 141;  y: 16; width: 12; }
+
+.unit-box                   { x: 100%-60; width: 60;}

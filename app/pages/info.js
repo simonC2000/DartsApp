@@ -9,8 +9,7 @@ function doSomething() {
 
 export function destroy() {
   console.log('destroy index page');
-  $buttonPlay = null;
-  $buttonInfo = null;
+  $buttonBackInfo = null;
 }
 
 export function init() {

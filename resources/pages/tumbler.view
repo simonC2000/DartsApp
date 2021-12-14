@@ -543,9 +543,5 @@
     </use>
     <use id="score-item180" href="#tumbler-item">
       <set href="value/text" attributeName="text-buffer" to="180" />
-    </use>
-
-  
-
-  
+    </use>  
 </svg>

@@ -1,38 +1,24 @@
 import document from 'document';
-import { getLocationName } from '../commands';
-import { getStateItem, setStateCallback, removeStateCallback } from '../state';
+import { switchPage } from '../navigation';
 
-
-
-let $button = null;
-let $locationName = null;
+let $buttonBackTumbler = null;
 
 function doSomething() {
-  console.log('hallo detail');
-}
-
-function draw() {
-  $locationName.text = getStateItem('location');
+  console.log('hallo index');
 }
 
 export function destroy() {
-  console.log('destroy detail page');
-  $locationName = null;
-  $button = null;
-  removeStateCallback('detail');
+  console.log('destroy index page');
+  $buttonBackTumbler = null;
 }
 
 export function init() {
-  console.log('init detail page');
-  $locationName = document.getElementById('location');
-  $button = document.getElementById('button');
-  $button.onclick = () => {
-    destroy();
-    document.history.back();
+  console.log('init index page');
+  $buttonBackTumbler = document.getElementById('buttonBackTumbler');
+
+  $buttonBackTumbler.onclick = () => {
+    switchPage('index', true);
   };
 
   doSomething();
-  getLocationName();
-  setStateCallback('detail', draw);
-  // draw();
 }

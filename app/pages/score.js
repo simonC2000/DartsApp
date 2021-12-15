@@ -1,6 +1,7 @@
 import document from 'document';
 import { switchPage } from '../navigation';
 
+
 let $buttonTumbler = null;
 
 
@@ -16,6 +17,9 @@ export function destroy() {
 
 export function init() {
   console.log('init index page');
+  let $scoreNumber = 501;
+  let $scoreText = document.getElementById("scoreText");
+  $scoreText.text = $scoreNumber;
   $buttonTumbler = document.getElementById('buttonTumbler');
 
   $buttonTumbler.onclick = () => {

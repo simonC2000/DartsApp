@@ -1,166 +1,166 @@
 <svg class="application-fill">
     <rect id="backgroundTumbler" />
   <use id="tumbler-score" href="#tumblerview">
-    <use id="score-item0" href="#tumbler-item">
+    <use id="score-item0" href="#tumbler-item" pointer-events="visible">
       <set href="value/text" attributeName="text-buffer" to="0" />
     </use>
-    <use id="score-item1" href="#tumbler-item">
+    <use id="score-item1" href="#tumbler-item" pointer-events="visible">
       <set href="value/text" attributeName="text-buffer" to="1" />
     </use>
-    <use id="score-item2" href="#tumbler-item">
+    <use id="score-item2" href="#tumbler-item" pointer-events="visible">
       <set href="value/text" attributeName="text-buffer" to="2" />
     </use>
-    <use id="score-item3" href="#tumbler-item">
+    <use id="score-item3" href="#tumbler-item" pointer-events="visible">
       <set href="value/text" attributeName="text-buffer" to="3" />
     </use>
-    <use id="score-item4" href="#tumbler-item">
+    <use id="score-item4" href="#tumbler-item" pointer-events="visible">
       <set href="value/text" attributeName="text-buffer" to="4" />
     </use>
-    <use id="score-item5" href="#tumbler-item">
+    <use id="score-item5" href="#tumbler-item" pointer-events="visible">
       <set href="value/text" attributeName="text-buffer" to="5" />
     </use>
-    <use id="score-item6" href="#tumbler-item">
+    <use id="score-item6" href="#tumbler-item" pointer-events="visible">
       <set href="value/text" attributeName="text-buffer" to="6" />
     </use>
-    <use id="score-item7" href="#tumbler-item">
+    <use id="score-item7" href="#tumbler-item" pointer-events="visible">
       <set href="value/text" attributeName="text-buffer" to="7" />
     </use>
-    <use id="score-item8" href="#tumbler-item">
+    <use id="score-item8" href="#tumbler-item" pointer-events="visible">
       <set href="value/text" attributeName="text-buffer" to="8" />
     </use>
-    <use id="score-item9" href="#tumbler-item">
+    <use id="score-item9" href="#tumbler-item" pointer-events="visible">
       <set href="value/text" attributeName="text-buffer" to="9" />
     </use>
-    <use id="score-item10" href="#tumbler-item">
+    <use id="score-item10" href="#tumbler-item" pointer-events="visible">
       <set href="value/text" attributeName="text-buffer" to="10" />
     </use>
-    <use id="score-item11" href="#tumbler-item">
+    <use id="score-item11" href="#tumbler-item" pointer-events="visible">
       <set href="value/text" attributeName="text-buffer" to="11" />
     </use>
-    <use id="score-item12" href="#tumbler-item">
+    <use id="score-item12" href="#tumbler-item" pointer-events="visible">
       <set href="value/text" attributeName="text-buffer" to="12" />
     </use>
-    <use id="score-item13" href="#tumbler-item">
+    <use id="score-item13" href="#tumbler-item" pointer-events="visible">
       <set href="value/text" attributeName="text-buffer" to="13" />
     </use>
-    <use id="score-item14" href="#tumbler-item">
+    <use id="score-item14" href="#tumbler-item" pointer-events="visible">
       <set href="value/text" attributeName="text-buffer" to="14" />
     </use>
-    <use id="score-item15" href="#tumbler-item">
+    <use id="score-item15" href="#tumbler-item" pointer-events="visible">
       <set href="value/text" attributeName="text-buffer" to="15" />
     </use>
-    <use id="score-item16" href="#tumbler-item">
+    <use id="score-item16" href="#tumbler-item" pointer-events="visible">
       <set href="value/text" attributeName="text-buffer" to="16" />
     </use>
-    <use id="score-item17" href="#tumbler-item">
+    <use id="score-item17" href="#tumbler-item" pointer-events="visible">
       <set href="value/text" attributeName="text-buffer" to="17" />
     </use>
-    <use id="score-item18" href="#tumbler-item">
+    <use id="score-item18" href="#tumbler-item" pointer-events="visible">
       <set href="value/text" attributeName="text-buffer" to="18" />
     </use>
-    <use id="score-item19" href="#tumbler-item">
+    <use id="score-item19" href="#tumbler-item" pointer-events="visible">
       <set href="value/text" attributeName="text-buffer" to="19" />
     </use>
-    <use id="score-item20" href="#tumbler-item">
+    <use id="score-item20" href="#tumbler-item" pointer-events="visible">
       <set href="value/text" attributeName="text-buffer" to="20" />
     </use>
-    <use id="score-item21" href="#tumbler-item">
+    <use id="score-item21" href="#tumbler-item" pointer-events="visible">
       <set href="value/text" attributeName="text-buffer" to="21" />
     </use>
-    <use id="score-item22" href="#tumbler-item">
+    <use id="score-item22" href="#tumbler-item" pointer-events="visible">
       <set href="value/text" attributeName="text-buffer" to="22" />
     </use>
-    <use id="score-item23" href="#tumbler-item">
+    <use id="score-item23" href="#tumbler-item" pointer-events="visible">
       <set href="value/text" attributeName="text-buffer" to="23" />
     </use>
-    <use id="score-item24" href="#tumbler-item">
+    <use id="score-item24" href="#tumbler-item" pointer-events="visible">
       <set href="value/text" attributeName="text-buffer" to="24" />
     </use>
-    <use id="score-item25" href="#tumbler-item">
+    <use id="score-item25" href="#tumbler-item" pointer-events="visible">
       <set href="value/text" attributeName="text-buffer" to="25" />
     </use>
-    <use id="score-item26" href="#tumbler-item">
+    <use id="score-item26" href="#tumbler-item" pointer-events="visible">
       <set href="value/text" attributeName="text-buffer" to="26" />
     </use>
-    <use id="score-item27" href="#tumbler-item">
+    <use id="score-item27" href="#tumbler-item" pointer-events="visible">
       <set href="value/text" attributeName="text-buffer" to="27" />
     </use>
-    <use id="score-item28" href="#tumbler-item">
+    <use id="score-item28" href="#tumbler-item" pointer-events="visible">
       <set href="value/text" attributeName="text-buffer" to="28" />
     </use>
-    <use id="score-item29" href="#tumbler-item">
+    <use id="score-item29" href="#tumbler-item" pointer-events="visible">
       <set href="value/text" attributeName="text-buffer" to="29" />
     </use>
-    <use id="score-item30" href="#tumbler-item">
+    <use id="score-item30" href="#tumbler-item" pointer-events="visible">
       <set href="value/text" attributeName="text-buffer" to="30" />
     </use>
-    <use id="score-item31" href="#tumbler-item">
+    <use id="score-item31" href="#tumbler-item" pointer-events="visible">
       <set href="value/text" attributeName="text-buffer" to="31" />
     </use>
-    <use id="score-item32" href="#tumbler-item">
+    <use id="score-item32" href="#tumbler-item" pointer-events="visible">
       <set href="value/text" attributeName="text-buffer" to="32" />
     </use>
-    <use id="score-item33" href="#tumbler-item">
+    <use id="score-item33" href="#tumbler-item" pointer-events="visible">
       <set href="value/text" attributeName="text-buffer" to="33" />
     </use>
-    <use id="score-item34" href="#tumbler-item">
+    <use id="score-item34" href="#tumbler-item" pointer-events="visible">
       <set href="value/text" attributeName="text-buffer" to="34" />
     </use>
-    <use id="score-item35" href="#tumbler-item">
+    <use id="score-item35" href="#tumbler-item" pointer-events="visible">
       <set href="value/text" attributeName="text-buffer" to="35" />
     </use>
-    <use id="score-item36" href="#tumbler-item">
+    <use id="score-item36" href="#tumbler-item" pointer-events="visible">
       <set href="value/text" attributeName="text-buffer" to="36" />
     </use>
-    <use id="score-item37" href="#tumbler-item">
+    <use id="score-item37" href="#tumbler-item" pointer-events="visible">
       <set href="value/text" attributeName="text-buffer" to="37" />
     </use>
-    <use id="score-item38" href="#tumbler-item">
+    <use id="score-item38" href="#tumbler-item" pointer-events="visible">
       <set href="value/text" attributeName="text-buffer" to="38" />
     </use>
-    <use id="score-item39" href="#tumbler-item">
+    <use id="score-item39" href="#tumbler-item" pointer-events="visible">
       <set href="value/text" attributeName="text-buffer" to="39" />
     </use>
-    <use id="score-item40" href="#tumbler-item">
+    <use id="score-item40" href="#tumbler-item" pointer-events="visible">
       <set href="value/text" attributeName="text-buffer" to="40" />
     </use>
-    <use id="score-item41" href="#tumbler-item">
+    <use id="score-item41" href="#tumbler-item" pointer-events="visible">
       <set href="value/text" attributeName="text-buffer" to="41" />
     </use>
-    <use id="score-item42" href="#tumbler-item">
+    <use id="score-item42" href="#tumbler-item" pointer-events="visible">
       <set href="value/text" attributeName="text-buffer" to="42" />
     </use>
-    <use id="score-item43" href="#tumbler-item">
+    <use id="score-item43" href="#tumbler-item" pointer-events="visible">
       <set href="value/text" attributeName="text-buffer" to="43" />
     </use>
-    <use id="score-item44" href="#tumbler-item">
+    <use id="score-item44" href="#tumbler-item" pointer-events="visible">
       <set href="value/text" attributeName="text-buffer" to="44" />
     </use>
-    <use id="score-item45" href="#tumbler-item">
+    <use id="score-item45" href="#tumbler-item" pointer-events="visible">
       <set href="value/text" attributeName="text-buffer" to="45" />
     </use>
-    <use id="score-item46" href="#tumbler-item">
+    <use id="score-item46" href="#tumbler-item" pointer-events="visible">
       <set href="value/text" attributeName="text-buffer" to="46" />
     </use>
-    <use id="score-item47" href="#tumbler-item">
+    <use id="score-item47" href="#tumbler-item" pointer-events="visible">
       <set href="value/text" attributeName="text-buffer" to="47" />
     </use>
-    <use id="score-item48" href="#tumbler-item">
+    <use id="score-item48" href="#tumbler-item" pointer-events="visible">
       <set href="value/text" attributeName="text-buffer" to="48" />
     </use>
-    <use id="score-item49" href="#tumbler-item">
+    <use id="score-item49" href="#tumbler-item" pointer-events="visible">
       <set href="value/text" attributeName="text-buffer" to="49" />
     </use>
-    <use id="score-item50" href="#tumbler-item">
+    <use id="score-item50" href="#tumbler-item" pointer-events="visible">
       <set href="value/text" attributeName="text-buffer" to="50" />
     </use>
-    <use id="score-item51" href="#tumbler-item">
+    <use id="score-item51" href="#tumbler-item" pointer-events="visible">
       <set href="value/text" attributeName="text-buffer" to="51" />
     </use>
-    <use id="score-item52" href="#tumbler-item">
+    <use id="score-item52" href="#tumbler-item" pointer-events="visible">
       <set href="value/text" attributeName="text-buffer" to="52" />
     </use>
-    <use id="score-item53" href="#tumbler-item">
+    <use id="score-item53" href="#tumbler-item" pointer-events="visible">
       <set href="value/text" attributeName="text-buffer" to="53" />
     </use>
     <use id="score-item54" href="#tumbler-item">

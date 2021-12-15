@@ -14,6 +14,15 @@ export function destroy() {
 
 export function init() {
   console.log('init index page');
+  let $tumblerScore = document.getElementById("tumbler-score");
+  let $tumblerButton = document.getElementById("score-item3");
+
+  $tumblerButton.onclick = () => {
+    switchPage('score', true);
+  };
+
+
+  console.log("tumbler-score")
   $buttonBackTumbler = document.getElementById('buttonBackTumbler');
 
   $buttonBackTumbler.onclick = () => {

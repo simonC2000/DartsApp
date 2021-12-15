@@ -1,5 +1,6 @@
 <svg>
   <rect id="backgroundIndex" />
+   <image x="0" y="110" width="320" height="75" href="../images/homescreenIllustration.png" />
   <use id="buttonPlay" href="#text-button" class="text-button bottom left application-fill" />
   <use id="buttonInfo" href="#text-button" class="text-button bottom right application-fill" />
 </svg>

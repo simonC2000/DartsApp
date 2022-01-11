@@ -17,13 +17,21 @@ export function destroy() {
 
 export function init() {
   console.log('init index page');
-  let $scoreNumber = 501;
-  let $scoreText = document.getElementById("scoreText");
+  let $startScore = 501;
+  let $scoreNumber = document.createElement($startScore);
+  let $scoreNumberTwo = "";
+  let $scoreText = document.getElementById("score");
   $scoreText.text = $scoreNumber;
   $buttonTumbler = document.getElementById('buttonTumbler');
 
-  $buttonTumbler.onclick = () => {
-    switchPage('tumbler', true);
+  let $tumblerScore = document.getElementById("tumbler-score");
+  let $tumblerButtonThree = document.getElementById("score-item3");
+
+  $tumblerButtonThree.onclick = () => {
+    console.log("click");
+    $scoreNumberTwo = $scoreNumber - 3;
+    console.log($scoreNumberTwo)
+    $scoreText.text = $scoreNumberTwo;
   };
 
 

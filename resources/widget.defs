@@ -2,6 +2,7 @@
   <defs>
     <link rel="stylesheet" href="pages/styles.css" />
     <link rel="stylesheet" href="pages/info.css" />
+    <link rel="stylesheet" href="pages/infoTwo.css" />
     <link rel="stylesheet" href="pages/score.css" />
     <link rel="stylesheet" href="pages/tumbler.css" />
     <link rel="stylesheet" href="pages/win.css" />

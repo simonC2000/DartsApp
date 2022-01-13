@@ -1,7 +1,7 @@
 <svg class="application-fill">
     <rect id="backgroundScore" />
 
-    <use id="tumbler-score" href="#tumblerview">
+    <use id="tumbler-score" href="#tumblerview" >
     <use id="score-item0" href="#tumbler-item" pointer-events="visible">
       <set href="value/text" attributeName="text-buffer" to="0" />
     </use>
@@ -545,6 +545,6 @@
     <use id="score-item180" href="#tumbler-item" pointer-events="visible">
       <set href="value/text" attributeName="text-buffer" to="180" />
     </use>
-
-    <use id="score" href="#textarea-button" y="37%" x="-150" width="400" class="text-button bottom application-fill" />
+  </use>
+  <use id="score" href="#textarea-button" class="text-button bottom application-fill" />
 </svg>

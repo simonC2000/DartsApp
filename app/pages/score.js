@@ -15,7 +15,9 @@ export function destroy() {
   $buttonInfo = null;
 }
 
-export function init() {
+
+
+/*export function init() {
   console.log('init index page');
   let $startScore = 501;
   let $scoreNumber = document.createElement($startScore);
@@ -31,9 +33,9 @@ export function init() {
     console.log("click");
     $scoreNumberTwo = $scoreNumber - 3;
     console.log($scoreNumberTwo)
-    $scoreText.text = $scoreNumberTwo;
-  };
+    $scoreText.text = $scoreNumberTwo; 
+  }; 
 
 
   doSomething();
-}
+} */

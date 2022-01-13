@@ -4,10 +4,6 @@
     fill: #294751;
   }
 
-#buttonBackInfo #text {
+#buttonBackInfoTwo #text {
     text-buffer: "BACK";
-  }
-
-#buttonInfoNext #text {
-    text-buffer: "NEXT";
   }

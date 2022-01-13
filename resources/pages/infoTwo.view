@@ -1,22 +1,10 @@
 <svg>
     <use href="#scrollview">
     <use href="#scrollview-item" height="335">
-       <image x="4" y="96" width="335" height="335" href="../images/info_1.png" />
+       <image x="4" y="96" width="335" height="335" href="../images/info_6.png" />
     </use>
     <use href="#scrollview-item" height="335">
-      <image x="4" y="96" width="335" height="335" href="../images/info_2.png" />
-    </use>
-    <use href="#scrollview-item" height="335">
-      <image x="4" y="96" width="335" height="335" href="../images/info_3.png" />
-    </use>
-    <use href="#scrollview-item" height="335">
-      <image x="4" y="96" width="335" height="335" href="../images/info_4.png" />
-    </use>
-    <use href="#scrollview-item" height="335">
-      <image x="4" y="96" width="335" height="335" href="../images/info_5.png" />
-    </use>
-    <use href="#scrollview-item" height="90">
-      <rect x="4" y="96" width="100%" height="30%" fill="#F8AC3B" />
+      <image x="4" y="96" width="335" height="335" href="../images/info_7.png" />
     </use>
   </use>
   <use id="buttonBackInfoTwo" href="#text-button" y="0%" class="text-button bottom application-fill" />

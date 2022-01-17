@@ -2,9 +2,6 @@ import document from 'document';
 import { switchPage } from '../navigation';
 
 
-let $buttonTumbler = null;
-
-
 function doSomething() {
   console.log('hallo index');
 }
@@ -15,6 +12,21 @@ export function destroy() {
   $buttonInfo = null;
 }
 
+export function init() {
+  let $scoreNumber = 501;
+  let $tumblerButton = document.getElementById('tumbler-score');
+  let $tumblerScore = document.getElementById('tumbler-score');
+  let $number = document.getElementById('score');
+  $number.text = $scoreNumber;
+  $tumblerButton.onclick = () => {
+  console.log(parseInt($tumblerScore.value));
+  let $result = $scoreNumber - parseInt($tumblerScore.value);
+  console.log($result);
+  $number.text = $result;
+  }
+};
+
+doSomething();
 
 
 /*export function init() {

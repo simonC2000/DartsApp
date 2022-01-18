@@ -546,5 +546,10 @@
       <set href="value/text" attributeName="text-buffer" to="180" />
     </use>
   </use>
-  <use id="score" href="#textarea-button" class="text-button bottom application-fill" />
+  <use id="score" href="#textarea-button" class="text-button bottom application-fill"/>
+  <!--<text id="number" x="50%" y="90%"
+        font-family="System-Regular" fill="black"
+        font-size="30" font-weight="bold"
+        text-anchor="middle">501
+  </text>-->
 </svg>

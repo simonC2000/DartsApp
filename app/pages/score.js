@@ -2,7 +2,7 @@ import document from 'document';
 import { switchPage } from '../navigation';
 
 let $scoreNumber = 501;
-let $scoreNumberText = 'CONFIRM         ' + 'SCORE: ' + $scoreNumber;
+
 
 function doSomething() {
   console.log('hallo index');
@@ -17,14 +17,33 @@ export function destroy() {
 export function init() {
   let $tumblerButton = document.getElementById('score');
   let $tumblerScore = document.getElementById('tumbler-score');
-  let $number = document.getElementById('score');
-  $number.text = $scoreNumberText;
+  let $previousScore = document.getElementById('score');
+  $previousScore.text = $scoreNumber;
   $tumblerButton.onclick = () => {
-  console.log(parseInt($tumblerScore.value));
-  let $result = $scoreNumber - parseInt($tumblerScore.value);
-  console.log($result);
-  $number.text = 'CONFIRM         ' + 'SCORE: ' + $result;
+  console.log($previousScore.text);
+  let $scoreRemaining = $previousScore.text - parseInt($tumblerScore.value);
+  console.log($tumblerScore.value);
+  console.log($scoreRemaining);
+  $previousScore.text = $scoreRemaining;
   }
 };
-
 doSomething();
+
+/*
+
+export function init() {
+  let $tumblerButton = document.getElementById('score');
+  let $tumblerScore = document.getElementById('tumbler-score');
+  let $previousScore = document.getElementById('score');
+  $previousScore.text = $scoreNumber;
+  $tumblerButton.onclick = () => {
+  console.log($previousScore.text);
+  let $scoreRemaining = $previousScore.text - parseInt($tumblerScore.value);
+  console.log($tumblerScore.value);
+  console.log($scoreRemaining);
+  $previousScore.text = $scoreRemaining;
+  }
+};
+doSomething();
+
+*/

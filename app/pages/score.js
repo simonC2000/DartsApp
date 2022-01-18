@@ -20,12 +20,21 @@ export function init() {
   let $previousScore = document.getElementById('score');
   $previousScore.text = $scoreNumber;
   $tumblerButton.onclick = () => {
-  console.log($previousScore.text);
-  let $scoreRemaining = $previousScore.text - parseInt($tumblerScore.value);
-  console.log($tumblerScore.value);
-  console.log($scoreRemaining);
-  $previousScore.text = $scoreRemaining;
-  }
+    if($previousScore.text >= 1) {
+      console.log($previousScore.text);
+      let $scoreRemaining = $previousScore.text - parseInt($tumblerScore.value);
+      console.log($tumblerScore.value);
+      console.log($scoreRemaining);
+      $previousScore.text = $scoreRemaining;
+    }
+    else if ($previousScore.text <= 0) {
+      console.log('win');
+      switchPage('win', true);
+    }  
+    else {
+      console.log('error');
+    }  
+}
 };
 doSomething();
 
@@ -37,12 +46,21 @@ export function init() {
   let $previousScore = document.getElementById('score');
   $previousScore.text = $scoreNumber;
   $tumblerButton.onclick = () => {
-  console.log($previousScore.text);
-  let $scoreRemaining = $previousScore.text - parseInt($tumblerScore.value);
-  console.log($tumblerScore.value);
-  console.log($scoreRemaining);
-  $previousScore.text = $scoreRemaining;
-  }
+    if($previousScore.text >= 1) {
+      console.log($previousScore.text);
+      let $scoreRemaining = $previousScore.text - parseInt($tumblerScore.value);
+      console.log($tumblerScore.value);
+      console.log($scoreRemaining);
+      $previousScore.text = $scoreRemaining;
+    }
+    else if ($previousScore.text == 0) {
+      console.log('win');
+      switchPage('win', true);
+    }  
+    else {
+      console.log('error');
+    }  
+}
 };
 doSomething();
 

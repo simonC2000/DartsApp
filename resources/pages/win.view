@@ -1,1 +1,14 @@
-<svg></svg>
+<svg>
+    <rect id="backgroundWin" />
+    <text x="50%" y="20%"
+        font-family="System-Regular" fill="#294751"
+        font-size="30" font-weight="regular"
+        text-anchor="middle">WINNER</text>
+
+        <text x="49%" y="70%"
+        font-family="System-Regular" fill="#294751"
+        font-size="180" font-weight="bold"
+        text-anchor="middle">0</text>
+
+        <use id="playAgain" href="#textarea-button" class=" bg-fill text-button bottom app-fill"/>
+</svg>

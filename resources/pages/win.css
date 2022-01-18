@@ -1,0 +1,15 @@
+.app-fill                   { fill: #3AD4A6; }
+.background-fill            { fill: #294751; }
+
+#backgroundWin {
+    width: 100%;
+    height: 100%;
+    fill: #3AD4A6;
+  }
+
+  #playAgain #text {
+    font-size: 20;
+    text-buffer: "PLAY AGAIN";
+    color: #3AD4A6;
+  }
+
